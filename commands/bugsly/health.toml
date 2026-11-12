@@ -1,0 +1,12 @@
+description = "Check cron monitors, uptime monitors, crash-free rate and event usage (read-only)"
+prompt = """
+Check the health of a Bugsly project. This is read-only.
+
+Project (may be empty): {{args}}
+
+1. Call `list_projects` and pick the project (ask if several and none named).
+2. Call `list_monitors` and `list_uptime_monitors` for it. For anything that looks failing or late, call `get_monitor` or `get_uptime_status`.
+3. Call `get_crash_free` (default 30 days) and `get_usage`.
+4. Summarise: failing or late monitors first, then uptime, crash-free sessions and users, and event usage against the plan limit. Quote numbers exactly as returned. If crash-free percentages are null, say no sessions have been ingested yet.
+5. Do not change anything or call `get_checkout_url`.
+"""

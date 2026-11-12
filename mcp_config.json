@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "bugsly": {
+      "serverUrl": "https://bugsly.dev/api/mcp",
+      "disabledTools": [
+        "get_checkout_url"
+      ]
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "bugsly",
+  "displayName": "Bugsly",
+  "version": "1.0.0",
+  "description": "Read, search and triage the errors in your Bugsly projects: stack traces, cron and uptime monitors, crash-free rate.",
+  "logo": "assets/icon.png",
+  "suggestedPrompts": [
+    "Show the 5 newest unresolved errors in my Bugsly project and explain the top one from its stack trace",
+    "Are my Bugsly cron jobs and uptime monitors healthy?",
+    "What is my crash-free session rate over the last 30 days?"
+  ],
+  "author": {
+    "name": "Bugsly",
+    "url": "https://bugsly.dev"
+  },
+  "homepage": "https://bugsly.dev/agents",
+  "repository": "https://github.com/airdropfi/bugsly-gemini-extension",
+  "license": "MIT",
+  "keywords": [
+    "error-monitoring",
+    "error-tracking",
+    "debugging",
+    "mcp",
+    "bugsly"
+  ]
+}

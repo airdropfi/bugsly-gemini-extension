@@ -1,0 +1,14 @@
+{
+  "name": "bugsly",
+  "version": "1.0.0",
+  "description": "Read, search and triage the errors in your Bugsly projects from Gemini CLI: stack traces, cron and uptime monitors, crash-free rate. You approve every status change.",
+  "contextFileName": "GEMINI.md",
+  "mcpServers": {
+    "bugsly": {
+      "httpUrl": "https://bugsly.dev/api/mcp",
+      "excludeTools": [
+        "get_checkout_url"
+      ]
+    }
+  }
+}
